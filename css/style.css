@@ -140,13 +140,14 @@ main section div.big-column{
 }
 
 main section div.blue-column{
-    background-color: #1c87f0;
+    /* background-color: #1c87f0; */
     width: 60%;
 }
 
 main section div.pink-column{
-    background-color: #f1b5c0;
     width: 40%;
+    padding-top: 2rem;
+    font-size: 1.6rem;
 }
 
 main section div.big-column{
