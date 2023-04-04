@@ -64,9 +64,6 @@ h3{
     margin: 1rem 0.5rem 0 1rem;
 }
 
-.button-white{
-}
-
 .button-violet{
     background-color: #8EA1E1;
     color: white;
@@ -75,7 +72,6 @@ h3{
 .background-gray{
     background-color: #d2d2d2;
 }
-
 
 body{
     font-family: 'Cabin', sans-serif;
@@ -118,10 +114,6 @@ li{
     padding-bottom: 10px;
 }
 
-section.upper div.login{
-    text-align: right;
-}
-
 header section.jumbotron{
     padding: 4rem 0;
 }
@@ -135,11 +127,11 @@ main>section{
     padding: 4rem 0;
 }
 
-main section div.blue-column{
+main section div.image-column{
     width: 60%;
 }
 
-main section div.pink-column{
+main section div.text-column{
     width: 40%;
     padding-top: 2rem;
 }
@@ -148,7 +140,6 @@ main section div.big-column{
     text-align: center;
     width: 100%;
     height: 800px;
-    
 }
 
 .lower-title{
@@ -183,17 +174,6 @@ footer section.footer-bottom{
     padding: 1rem 0;
 }
 
-hr{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-footer section .logo-wrapper,
-footer section .button-wrapper{
-    padding: .5rem;
-}
-
-
 .flag{
     width: 10%;
     margin-top: 3rem;
@@ -204,3 +184,4 @@ footer section .button-wrapper{
     color: white;
     text-align: top;
 }
+
