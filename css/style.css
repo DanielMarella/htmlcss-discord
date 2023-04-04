@@ -69,29 +69,13 @@ h3{
 
 .button-violet{
     background-color: #8EA1E1;
+    color: white;
 }
-
-
-
-/* .dashed-border{
-    border: 2px dashed black;
-} */
-/* 
-.dashed-border-white{
-    border: 2px dashed white;
-} */
-
-/* .background-gold{
-    background-color: #d9a420;
-} */
 
 .background-gray{
     background-color: #d2d2d2;
 }
 
-/* .background-pastel-pink{
-    background-color: #feb5c0;
-} */
 
 body{
     font-family: 'Cabin', sans-serif;
@@ -99,12 +83,9 @@ body{
 }
 
 header{
-    /* background-color: #acd7e5; */
     background-image: url(../img/jumbo.png); 
     background-size: cover;
 }
-
-
 
 header section.upper{
     height: 80px;
@@ -133,22 +114,19 @@ ul{
     color: white;
 }
 
-/* section.upper nav ul li{
-    margin-right: .5rem;
-} */
+li{
+    padding-bottom: 10px;
+}
 
 section.upper div.login{
     text-align: right;
 }
 
 header section.jumbotron{
-    /* background-color: #00008a; */
-    /* height: 550px; */
     padding: 4rem 0;
 }
 
 section.jumbotron .hero{
-    /* background-color: #ed81ed; */
     height: 400px;
     width: 75%;
 }
@@ -157,29 +135,24 @@ main>section{
     padding: 4rem 0;
 }
 
-/* TODO Rimuovere dopo i contenuti*/
-main section div.blue-column,
-main section div.pink-column,
-main section div.big-column{
-    height: 500px;
-}
-
 main section div.blue-column{
-    /* background-color: #1c87f0; */
     width: 60%;
 }
 
 main section div.pink-column{
     width: 40%;
     padding-top: 2rem;
-    /* font-size: 1.6rem; */
 }
 
 main section div.big-column{
     text-align: center;
-    /* background-color: #1e7b1e; */
     width: 100%;
     height: 800px;
+    
+}
+
+.lower-title{
+    padding-bottom: 25px;
 }
 
 footer{
@@ -188,11 +161,11 @@ footer{
 }
 
 footer section.footer-top{
-    height: 700px;
+    height: 600px;
+    border-bottom:  1px solid #8EA1E1;;
 }
 
 footer div.main-column{
-    /* background-color: #ef7f7f; */
     width: 30%;
 }
 
@@ -201,12 +174,10 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    /* background-color: #20b1a9; */
     width: calc(100% / 4);
 }
 
 footer section.footer-bottom{
-    background-color: #7ffed3;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
@@ -223,6 +194,13 @@ footer section .button-wrapper{
 }
 
 
-li{
-    padding-bottom: 10px;
+.flag{
+    width: 10%;
+    margin-top: 3rem;
+    vertical-align: bottom;
+}
+
+.language{
+    color: white;
+    text-align: top;
 }
