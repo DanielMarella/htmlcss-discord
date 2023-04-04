@@ -21,12 +21,17 @@ p{
     font-size: 1.5rem;
 }
 h2{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2.5rem;
 }
 
 h3{
     font-size: 1.7rem;
+}
+
+.violet{
+    color: #8EA1E1;
+
 }
 
 .container{
@@ -64,7 +69,6 @@ h3{
 
 .button-violet{
     background-color: #8EA1E1;
-    margin: 1rem 0.5rem 0 1rem;
 }
 
 
@@ -72,10 +76,10 @@ h3{
 /* .dashed-border{
     border: 2px dashed black;
 } */
-
+/* 
 .dashed-border-white{
     border: 2px dashed white;
-}
+} */
 
 /* .background-gold{
     background-color: #d9a420;
@@ -85,9 +89,9 @@ h3{
     background-color: #d2d2d2;
 }
 
-.background-pastel-pink{
+/* .background-pastel-pink{
     background-color: #feb5c0;
-}
+} */
 
 body{
     font-family: 'Cabin', sans-serif;
@@ -121,10 +125,12 @@ section.upper nav {
     width: 60%;
 }
 
-section.upper nav ul{
+nav,
+ul{
     list-style-type: none;
     padding: .5rem 1rem;
     justify-content: space-around;
+    color: white;
 }
 
 /* section.upper nav ul li{
@@ -178,7 +184,7 @@ main section div.big-column{
 
 footer{
     background-color: #23272a;
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 footer section.footer-top{
@@ -186,7 +192,7 @@ footer section.footer-top{
 }
 
 footer div.main-column{
-    background-color: #ef7f7f;
+    /* background-color: #ef7f7f; */
     width: 30%;
 }
 
@@ -195,7 +201,7 @@ footer div.footer-columns{
 }
 
 footer div.secondary-column{
-    background-color: #20b1a9;
+    /* background-color: #20b1a9; */
     width: calc(100% / 4);
 }
 
@@ -214,4 +220,9 @@ hr{
 footer section .logo-wrapper,
 footer section .button-wrapper{
     padding: .5rem;
+}
+
+
+li{
+    padding-bottom: 10px;
 }
