@@ -185,3 +185,12 @@ footer section.footer-bottom{
     text-align: top;
 }
 
+.waves{
+    width: 100%;
+    filter: invert(100%) sepia(0%) saturate(241%) hue-rotate(149deg) brightness(89%) contrast(82%);
+}
+
+.reverse{
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
